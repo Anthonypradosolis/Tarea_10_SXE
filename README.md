@@ -62,4 +62,12 @@ Este comando sirve para ver si los servicios estan ejecutandose, como en esta im
 
 Ahora iremos al navegador para entrar en Odoo:
 
+Esta imagen está proporcionada por mi compañero Yoel García, ya que no hice en su debido tiempo esa captura de pantalla.
+![InicioOdoo](Imagenes_ODoo/InicioOdoo.png)
+
+Luego de rellenar todos los campos de Odoo, podremos iniciar Sesión en Odoo, si tenemos todo correcto al rellenar los campos requeridos, entraremos en Odoo:
+![FinalOdoo](Imagenes_ODoo/final_odoo.png)
+
+Este apartado ya quedaría finalizado, pero ahora falta entrar en PgAdmin.
+
 
