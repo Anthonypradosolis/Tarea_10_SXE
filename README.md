@@ -58,4 +58,5 @@ sudo docker ps -a
 ```
 Este comando sirve para ver si los servicios estan ejecutandose, como en esta imagen:
 
+![Servicios](Imagenes_ODoo/servicios.png)
 
