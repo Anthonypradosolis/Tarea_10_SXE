@@ -70,4 +70,30 @@ Luego de rellenar todos los campos de Odoo, podremos iniciar Sesión en Odoo, si
 
 Este apartado ya quedaría finalizado, pero ahora falta entrar en PgAdmin.
 
+Ahora tenemos que iniciar sesión en pgAdmin:
+
+![InicioPgAdmin](Imagenes_ODoo/inicio_sesion_pgadmin.png)
+
+Al entrar en pgAdmin tendremos lo siguiente:
+![DentroPgAdmin](Imagenes_ODoo/pgadmin.png)
+
+Ahora para relacionar nuestra base de datos con las tablas de odoo tenemos que realizar lo siguiente:
+
+![ComandoIp](Imagenes_ODoo/comando_ip_postgres.png)
+
+Esto lo hacemos para ver la información de este contenedor en concreto:
+
+![ComandoIp](Imagenes_ODoo/ip_postgres.png)
+
+Con esta informacion tenemos que copiar la ip que en este caso es: 
+```bash
+172.18.0.4
+```
+Ahora tenemos que dar click derecho en la carpeta Servers(1), le damos a Register y luego a Server.
+
+Tendremos que rellenar los apartados, hay un apartado el cual tendremos que pegar la ip del contenedor de postgres (172.18.0.4).
+![ServerAdmin](Imagenes_ODoo/serveradmin.png)
+
+Finalmente podremos ver todas las tablas que tiene Odoo.
+![FinalPgAdmin](Imagenes_ODoo/final_pgadmin.png)
 
