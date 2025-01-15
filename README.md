@@ -60,3 +60,6 @@ Este comando sirve para ver si los servicios estan ejecutandose, como en esta im
 
 ![Servicios](Imagenes_ODoo/servicios.png)
 
+Ahora iremos al navegador para entrar en Odoo:
+
+
