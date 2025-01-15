@@ -97,3 +97,6 @@ Tendremos que rellenar los apartados, hay un apartado el cual tendremos que pega
 Finalmente podremos ver todas las tablas que tiene Odoo.
 ![FinalPgAdmin](Imagenes_ODoo/final_pgadmin.png)
 
+Ya lo tendriamos todo funcionando.
+
+# Preguntas
