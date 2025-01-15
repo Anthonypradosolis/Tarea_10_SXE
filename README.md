@@ -100,3 +100,16 @@ Finalmente podremos ver todas las tablas que tiene Odoo.
 Ya lo tendriamos todo funcionando.
 
 # Preguntas
+
+¿Que ocurre si en el ordenador local el puerto 5432 está ocupado? ¿Y si lo estuviese el 8069? ¿Como puedes solucionarlo?
+
+
+Cuando queremos utilizar el puerto 5432 en nuestro docker compose, nos daría un error de conflicto ya que un mismo puerto no puede utilizarse por dos procesos, esto pasa también con el puerto 8069.
+
+Para solucionar este problema, podemos asignar otro puerto en el host y no mappear directamente el puerto 5432.
+
+Ejemplo: 
+```bash
+"5433:5432"
+"8079:8069"
+```
